@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "name": "blade.xss",
+      "type": "support.xss.XssProperties",
+      "sourceType": "support.xss.XssProperties"
+    },
+    {
+      "name": "blade.xss.url",
+      "type": "support.xss.XssUrlProperties",
+      "sourceType": "support.xss.XssUrlProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "blade.xss.enabled",
+      "type": "java.lang.Boolean",
+      "description": "开启xss",
+      "sourceType": "support.xss.XssProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "blade.xss.skip-url",
+      "type": "java.util.List<java.lang.String>",
+      "description": "放行url",
+      "sourceType": "support.xss.XssProperties"
+    },
+    {
+      "name": "blade.xss.url.exclude-patterns",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "support.xss.XssUrlProperties"
+    }
+  ],
+  "hints": []
+}

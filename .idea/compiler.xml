@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="suilin-core-launch" />
+        <module name="suilin-gateway" />
+        <module name="suilin-common" />
+        <module name="suilin-core-security" />
+        <module name="suilin-core-tool" />
+        <module name="suilin-system" />
+        <module name="suilin-community" />
+        <module name="suilin-core-swagger" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="suilin-code" options="" />
+      <module name="suilin-common" options="" />
+      <module name="suilin-community" options="" />
+      <module name="suilin-core-launch" options="-parameters" />
+      <module name="suilin-core-security" options="-parameters" />
+      <module name="suilin-core-swagger" options="-parameters" />
+      <module name="suilin-core-tool" options="-parameters" />
+      <module name="suilin-gateway" options="" />
+      <module name="suilin-system" options="" />
+    </option>
+  </component>
+</project>

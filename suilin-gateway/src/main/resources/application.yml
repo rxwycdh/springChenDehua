@@ -1,0 +1,32 @@
+server:
+  port: 80
+
+spring:
+  cloud:
+    discovery:
+      reactive:
+        enabled: false
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+    loadbalancer:
+      retry:
+        enabled: true
+
+suilin:
+  document:
+    - name: 总系统模块
+      location: /suilin-system
+  secure:
+    skipUrl:
+      - /suilin-community-goodTime/**
+      - /suilin-community-fortuneGarden/**
+
+
+# JWT key
+jwt:
+  # JWT加解密使用的密钥
+  secret: LGro0RSqrzBnEGdCHupEiMlU2Pj5YQeO72tVwOfXvPL7YHT7Fu
+  # JWT的超期限时间(60*60*24)
+  expiration: 604800

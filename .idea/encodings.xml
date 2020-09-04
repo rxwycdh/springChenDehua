@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/suilin-code/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suilin-code/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suilin-code/suilin-core-launch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suilin-code/suilin-core-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suilin-code/suilin-core-tool/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suilin-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suilin-community/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suilin-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suilin-system/src/main/java" charset="UTF-8" />
+  </component>
+</project>

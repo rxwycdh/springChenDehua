@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="F:\work\yd_work\newcloud\suilin-gateway\target/suilin-gateway.jar" tofile="${session.executionRootDirectory}/target/suilin-gateway.jar" overwrite="true"/>
+</target>
+</project>

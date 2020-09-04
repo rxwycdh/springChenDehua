@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "suilin.document",
+      "type": "org.analysis.props.RouteProperties",
+      "sourceType": "org.analysis.props.RouteProperties"
+    },
+    {
+      "name": "suilin.secure",
+      "type": "org.analysis.props.AuthProperties",
+      "sourceType": "org.analysis.props.AuthProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "suilin.document.resources",
+      "type": "java.util.List<org.analysis.props.RouteResource>",
+      "sourceType": "org.analysis.props.RouteProperties"
+    },
+    {
+      "name": "suilin.secure.skip-url",
+      "type": "java.util.List<java.lang.String>",
+      "description": "放行API集合",
+      "sourceType": "org.analysis.props.AuthProperties"
+    }
+  ],
+  "hints": []
+}

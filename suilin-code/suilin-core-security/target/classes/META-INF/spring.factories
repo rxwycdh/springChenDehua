@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.analysis.core.security.JwtUtil,\
+  org.analysis.core.security.PasswordTokenGranter
