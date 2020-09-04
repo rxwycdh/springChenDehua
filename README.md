@@ -2,7 +2,7 @@
 
 ## 架构图
 
-![](https://chendehuablog.oss-cn-hangzhou.aliyuncs.com/Untitled Diagram (7).jpg)
+![](https://chendehuablog.oss-cn-hangzhou.aliyuncs.com/springChenDehua.jpg)
 
 ## 工程结构
 
